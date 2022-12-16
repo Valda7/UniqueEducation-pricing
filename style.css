@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial;
+}
+
+.top-navbar{
+    display: flex;
+    /* flex-direction: row;    */
+    align-items: center;
+    padding-left: 100px;
+    margin-top: 20px;
+}
+
+.nav-image{
+    display: flex;
+    align-items: center;
+}
+.navbar-logoword{
+    width: 300px;
+    height: 24px;
+    font-weight: 700;
+    Top: 215px;
+    Left :597px;
+    size: 25px;
+    line-height: 24px;
+    /* padding: 18px; */
+}
+
+.nav-links ul {
+    display: flex;
+    /* flex-direction: row; */
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    
+}
+
+.nav-links a {
+    /* justify-content: space-between; */
+    margin-right: 80px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.home{
+    color: #0C98BE;
+}
+.link{
+    color: #090808;
+
+}
+    
+.nav-button .login{
+    border-radius: 8px;
+    padding: 10px 48px 10px 48px;
+    border: 1px solid #0C98BE;
+    margin: 0 20px 20px 10px;
+}
+
+.nav-button .register{
+    border-radius: 8px;
+    padding: 10px 48px 10px 48px;
+    background-color: #0C98BE;
+    margin-right: 50px;
+    color: #ffffff;
+    border: 1px solid #0C98BE;
+}
+.nav-button a{
+    text-decoration: none;
+}
+/* Navbar section end */
+
+.header{
+    text-align: center;
+}
+
+.text{
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+.sub-text{
+    font-size: 18px;
+    font-weight: 600;
+    color: #0C98BE;
+    padding-top: 30px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    padding:50px 200px;
+    line-height: 30px;
+}
+
+.card1{
+    border: 1px solid #E5EAF1;
+    color: #0F172A;
+    width: 286.2px;
+    height: 476px;
+    border-radius: 12px;
+    text-align: center;
+    padding-top: 5px;
+}
+.card1 a{
+    text-decoration: none;
+}
+
+.card2{
+    border: 1px solid #0C98BE;
+    background-color: #0C98BE;
+    color: #ffffff;
+    width: 286.2px;
+    height: 476px;
+    border-radius: 12px;
+    text-align: center;
+    padding-top: 5px
+}
+.card2 a{
+    text-decoration: none;
+}
+
+ h1 .amount{
+    font-size: 18px;
+    font-weight: 700;
+    color: #0f172A;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 21px;
+    padding-bottom: 4px;
+}
+.button{
+    border: 1px solid #0C98BE;
+    background-color: #0C98BE;
+    padding: 15px 45px;
+    border-radius: 8px;
+    margin: 10px 50px ;
+}
+.button a{
+    color: #ffffff;
+}
+.button2{
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    padding: 15px 45px;
+    border-radius: 8px;
+    margin: 10px 50px ;
+}
+.button2 a{
+    color: #0C98BE;
+}
+
+.month{
+    padding-bottom: 2px;
+    border-bottom: 1px solid #E5EAF1;
+}
